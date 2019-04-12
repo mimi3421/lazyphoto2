@@ -58,8 +58,6 @@ document.body.onload=function(){{launchFullscreen(document.documentElement);}};
 		}}else if(n<0){{
 			n=allpic.length-1;
 		}}
-		//canvas.innerHTML="";
-		//temp_element=document.createElement("img");
 		var temp_element_=new Image();
 		temp_element_.src=allpic[n];
 		var temp_preload=new Image();
@@ -71,13 +69,13 @@ document.body.onload=function(){{launchFullscreen(document.documentElement);}};
 		
 		temp_preload1.src=allpic[n-10];
 		temp_preload2.src=allpic[n+10];
-		var loading=setTimeout(function(){{info.innerHTML="&nbsp;载入中..."}},100);
+		var loading=setTimeout(function(){{info.innerHTML="&nbsp;Loading..."}},100);
 		temp_element_.onload=function(){{
 			clearTimeout(loading);
 			scroll(0,0);
 			temp_element.src=allpic[n];
 			var dat=new Date();
-			info.innerHTML="&nbsp;<a href='?'>&#60;</a>&nbsp;<a onclick='launchFullscreen(document.documentElement);' style='float:right;'>&nbsp;"+dat.getHours()+":"+dat.getMinutes()+"&nbsp;[全屏]&nbsp;&nbsp;</a>&nbsp;"+folder.substr(0,30)+"&nbsp;&nbsp;"+(nowAt+1)+"/"+allpic.length+"&nbsp;<a onclick='window.location.reload(true);'>[刷新]</a>";
+			info.innerHTML="&nbsp;<a href='?'>&#60;</a>&nbsp;<a onclick='launchFullscreen(document.documentElement);' style='float:right;'>&nbsp;"+dat.getHours()+":"+dat.getMinutes()+"&nbsp;[Full screen]&nbsp;&nbsp;</a>&nbsp;"+folder.substr(0,30)+"&nbsp;&nbsp;"+(nowAt+1)+"/"+allpic.length+"&nbsp;<a onclick='window.location.reload(true);'>[Refresh]</a>";
 		}}
 		nowAt=n;
 		window.location="#"+n;
