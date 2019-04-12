@@ -6,7 +6,6 @@ import glob
 import os
 
 folderprefix = 'F:/myExt/fu/'
-#folderprefix = 'R:/temp/'
 pagebase = '/'
 imageformats = ('jpg','png','jpeg','gif')
 
