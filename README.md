@@ -8,7 +8,7 @@ It may be useful if you just want to:
 
  * Read the files but don't want to unzip them.
  * Keep the files in portable or PC storage.
- * Read the files on other device in local network.
+ * Read the files with other device in local network.
 
 ## Alert
 
