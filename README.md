@@ -6,9 +6,9 @@ It search the *.zip files in your mannga folder and make them readable on web br
 
 It may be useful if you just want to:
 
-    *. Read the files but don't want to unzip them.
-    *. Keep the files in portable or PC storage.
-    *. Read the files on other device in local network.
+ *. Read the files but don't want to unzip them.
+ *. Keep the files in portable or PC storage.
+ *. Read the files on other device in local network.
 
 ## Alert
 
