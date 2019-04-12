@@ -10,7 +10,7 @@ It may be useful if you just want to:
  * Keep the files in portable or PC storage.
  * Read the files with other device in local network.
 
-## Alert
+## Warning
 
 The code has NO review on safty issue so use it on your own risk. Test it on backed-up files first. Don't expose the server to untrusted netwrok.
 
