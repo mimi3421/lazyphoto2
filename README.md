@@ -28,6 +28,6 @@ Test if you can read the mannga on your PC browser
 
     http://localhost:[port]
 
-Now enjoy your mannga in bed with the web browser on your smartphone
+Now enjoy your mannga in bed with the web browser on your mobile device
     
     http://[your PC ip]:[port]  (For example: http://192.168.1.4:8080)
