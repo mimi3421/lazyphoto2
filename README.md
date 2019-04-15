@@ -1,8 +1,8 @@
 # lazyphoto2
 
-A simple mannga viewer as a python web server. (Worked for python 3.5+)
+A simple manga viewer as a python web server. (Worked for python 3.5+)
 
-It search the *.zip files in your mannga folder and make them readable on web browser though local network.
+It search the *.zip files in your manga folder and make them readable on web browser though local network.
 
 It may be useful if you just want to:
 
@@ -16,7 +16,7 @@ The code has NO review on safty issue so use it on your own risk. Test it on bac
 
 ## Usage
 
-Edit the path in server.py with text editor to your mannga folder containing the zip files 
+Edit the path in server.py with text editor to your manga folder containing the zip files 
 
     folderprefix = 'F:/myExt/fu/'
     
@@ -24,10 +24,10 @@ Start the server in commandline like this (There is a bat file sample for Window
 
     python server.py [port]
 
-Test if you can read the mannga on your PC browser
+Test if you can read the manga on your PC browser
 
     http://localhost:[port]
 
-Now enjoy your mannga in bed with the web browser on your mobile device
+Now enjoy your manga in bed with the web browser on your mobile device
     
     http://[your PC ip]:[port]  (For example: http://192.168.1.4:8080)
